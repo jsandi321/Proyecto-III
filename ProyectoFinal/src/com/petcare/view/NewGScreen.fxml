@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="254.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.petcare.controller.NewGScreenController">
+    <children>
+        <Label fx:id="Label" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="138.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="51.0" prefWidth="131.0" text="PetCare">
+            <font>
+                <Font size="32.0" />
+            </font></Label>
+        <Button fx:id="buttonNewGame" layoutX="151.0" layoutY="150.0" mnemonicParsing="false" onAction="#showPetSelectionScene" text="Nuevo juego" />
+        <TextField fx:id="textFieldName" alignment="CENTER" layoutX="110.0" layoutY="96.0" promptText="Nombre de Jugador" />
+    </children>
+</AnchorPane>

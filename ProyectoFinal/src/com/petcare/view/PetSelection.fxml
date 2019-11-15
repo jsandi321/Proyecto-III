@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.petcare.controller.PetSelectionController">
+   <ImageView fitHeight="657.0" fitWidth="517.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../img/fondo.png" />
+      </image>
+   </ImageView>
+    <ImageView fx:id="btnDog" fitHeight="187.0" fitWidth="167.0" layoutX="59.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../img/perro.gif" />
+        </image>
+    </ImageView>
+    <ImageView fx:id="btnCat" fitHeight="170.0" fitWidth="196.0" layoutX="59.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../img/gato.gif" />
+        </image>
+    </ImageView>
+    <ImageView fx:id="btnRabbit" fitHeight="193.0" fitWidth="196.0" layoutX="296.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../img/conejo.gif" />
+        </image>
+    </ImageView>
+    <ImageView fx:id="btnBird" fitHeight="211.0" fitWidth="209.0" layoutX="263.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../img/pajarito.gif" />
+        </image>
+    </ImageView>
+   <Label layoutX="59.0" layoutY="12.0" prefHeight="46.0" prefWidth="408.0" text="Seleccione las mascotas deseadas..." textFill="#0d0a00">
+      <font>
+         <Font name="System Bold Italic" size="24.0" />
+      </font>
+   </Label>
+   <Button fx:id="btnBack" layoutX="231.0" layoutY="582.0" mnemonicParsing="false" onAction="#showInGameScreen" text="Jugar" />
+</AnchorPane>
